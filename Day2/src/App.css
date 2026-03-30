@@ -182,3 +182,28 @@
     border-right-color: var(--border);
   }
 } */
+
+.card {
+  text-align: center;
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 200px;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+.profile-img {
+  width: 100px;
+  border-radius: 10%;
+}
+
+.name {
+  margin: 10px 0;
+}
+
+.btn {
+  padding: 10px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
