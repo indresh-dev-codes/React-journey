@@ -3,13 +3,14 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
+import Welcome from './components/Welcome'
 
 function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-    <h1>Day-2</h1>
-  )
+return(
+  <div>
+    <Welcome />
+  </div>
+)
 }
 
 export default App
