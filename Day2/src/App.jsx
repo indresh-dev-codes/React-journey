@@ -25,7 +25,8 @@ function App() {
         <p>Age: {age}</p>
       </div>
       <div>
-        <h2>This a JSX Attributes</h2>
+        <br />
+        <h1>This a JSX Attributes</h1>
         <ProfileCard />
       </div>
     </div>
