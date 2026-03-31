@@ -1,7 +1,3 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "./assets/vite.svg";
-import heroImg from "./assets/pic.png";
 import "./App.css";
 import Welcome from "./components/Welcome";
 import ProductCard from "./components/ProductCard";
