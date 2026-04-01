@@ -11,6 +11,7 @@ import ProfileCard from "./Components/ProfileCard";
 import Users from "./Components/Users";
 import ProductDetails from "./Components/ProductDetails";
 import ProfileDetails from "./Components/ProfileDetails";
+import TeamMember from "./Components/TeamMember";
 function App() {
   return (
     <div>
@@ -36,30 +37,46 @@ function App() {
       <br />
       <br />
       <div>
-        <ProfileCard name="Indresh" role="Frontend Dev" isOnline={true} /><br />
+        <ProfileCard name="Indresh" role="Frontend Dev" isOnline={true} />
+        <br />
         <ProfileCard name="Rahul" role="Tester" isOnline={false} />
       </div>
       <br />
       <div>
-        <Users name="Indresh" age={23}/>
+        <Users name="Indresh" age={23} />
       </div>
       <br />
       <br />
       <div>
-        <ProductDetails title="Laptop" price={50000}/>
+        <ProductDetails title="Laptop" price={50000} />
       </div>
       <br />
       <div>
-        <ProfileDetails name="Indresh" role="Frontend Dev" img={heroImg} isOnline={true} />
+        <ProfileDetails
+          name="Indresh"
+          role="Frontend Dev"
+          img={heroImg}
+          isOnline={true}
+        />
       </div>
       <br />
       <br />
       <div>
-        <ProfileDetails name="Indresh" role="Frontend Dev" img={heroImg} isOnline={false} />
+        <ProfileDetails
+          name="Indresh"
+          role="Frontend Dev"
+          img={heroImg}
+          isOnline={false}
+        />
+      </div>
+      <div>
+        <h1>Team Members List</h1>
+        <TeamMember name="A" role="Dev" />
+        <TeamMember name="B" role="Tester" />
+        <TeamMember name="C" role="Manager" />
       </div>
     </div>
   );
 }
 
 export default App;
-
