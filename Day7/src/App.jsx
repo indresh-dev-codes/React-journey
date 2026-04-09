@@ -44,9 +44,9 @@ function App() {
       <br />
       <Count />
       <br />
-      <Input/>
+      <Input />
       <br />
-      <Toggle/>
+      <Toggle />
       <br />
       <Show />
     </>
@@ -69,7 +69,6 @@ export default App;
 // Click button → event fires
 // setCount() updates state
 // UI re-renders automatically
-
 
 // Feature	  useState	  setState
 // Used in	  Functional	 Class
