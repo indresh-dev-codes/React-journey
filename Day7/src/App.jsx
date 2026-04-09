@@ -4,6 +4,10 @@ import Search from "./Components/Search";
 import LikeButton from "./Components/LikeButton";
 import Login from "./Components/Login";
 import Counter from "./Components/ClassComponent";
+import Count from "./Components/Counter";
+import Input from "./Components/InputBox";
+import Toggle from "./Components/Toggle";
+import Show from "./Components/TextHide";
 function App() {
   const [count, setCount] = useState(0);
   const [items, setItems] = useState(0);
@@ -37,6 +41,14 @@ function App() {
       <Login />
       <br />
       <Counter />
+      <br />
+      <Count />
+      <br />
+      <Input/>
+      <br />
+      <Toggle/>
+      <br />
+      <Show />
     </>
   );
 }
