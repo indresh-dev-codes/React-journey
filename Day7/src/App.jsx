@@ -57,3 +57,10 @@ export default App;
 // Click button → event fires
 // setCount() updates state
 // UI re-renders automatically
+
+
+// Feature	  useState	  setState
+// Used in	  Functional	 Class
+// Modern	  ✅ YES	     ❌ OLD
+// Syntax	   simple	    complex
+// Usage	      hooks	    lifecycle
