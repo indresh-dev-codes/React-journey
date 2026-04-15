@@ -1,0 +1,53 @@
+.Wrapper {
+  width: 300px;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 15px;
+  background: #ffffff;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.Wrapper p {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 20px 0;
+}
+button {
+  padding: 10px 20px;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 10px;
+  transition: all 0.2s ease;
+}
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+  transform: none;
+}
+button:hover {
+  transform: scale(1.1);
+  opacity: 0.9;
+}
+.plus {
+  background-color: #4caf50;
+  color: white;
+}
+.minus {
+  background-color: #ff4d4d;
+  color: white;
+}
+.heading {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 2.5rem;
+  color: #ffffff;
+}
+input[type="color"] {
+  margin-top: 20px;
+  width: 60px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+}
